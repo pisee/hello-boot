@@ -10,7 +10,7 @@
 - Dependency: Spring Data JPA, Spring Data JDBC, Spring Web, H2 Database, lombok 추가
 - Generate 후 다운로드된 zip파일 압축 해제 -> IDE 에서 open
 
-## 1.3 Hello Controller 생성
+## 1.1 Hello Controller 생성
 ```java
 package org.myproject.hello.controller;
 
@@ -28,8 +28,8 @@ public class HelloController {
 }
 ```
 
-## 1.1 Junit Test
-### 1.1.1 Springboot 2.1.5 ~ 2.3.x JUnit 사용시  
+## 1.2 Junit Test
+### 1.2.1 Springboot 2.1.5 ~ 2.3.x JUnit 사용시  
 - SpringTest에서 Junit4는 exclude하여 Junit5와 함께 빌드배포  
     ```xml
     <!-- junit4를 사용할 경우 org.junit.vintage 관련 exclusion 삭제 -->
@@ -45,7 +45,7 @@ public class HelloController {
         </exclusions>
     </dependency>
     ```
-### 1.1.2 Springboot 2.4.x 이상  
+### 1.2.2 Springboot 2.4.x 이상  
 - SpringTest에서 Junit5 만 빌드배포  
     ```xml
     <!-- junit4를 사용할 경우 dependency 추가-->
