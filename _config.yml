@@ -1,1 +1,7 @@
-theme: jekyll-theme-midnight
+permalink: /:categories/:year/:month/:day/:title
+title: test
+show_downloads: false
+logo: /assets/images/logo.png
+theme: jekyll-theme-cayman
+
+repository: pisee/hello-boots
